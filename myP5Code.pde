@@ -39,21 +39,8 @@ draw = function() {
     fill(0, 255, 0);
     ellipse(x, y, 50, 50);
     
-    if (x > 400) {
-    speed = -5;
-    }
     
-    if (x < 0) {
-    speed = 5;
-    }
     x = x + speed;  // move the ball
     
-      if (y > 400) {
-    speed = -5;
-    }
-    
-    if (y < 0) {
-    speed = 5;
-    }
     y = y + speed;  // move the ball
 };
